@@ -1,4 +1,4 @@
-site_name: "TTM API"
+site_name: "API DOCUMENTATION"
 theme:
   name: material
 nav:
@@ -26,5 +26,3 @@ nav:
   - Summary: Summary.md
 extra_css:
   - css/custom.css
-plugins:
-  - search
