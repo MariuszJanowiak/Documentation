@@ -1,0 +1,30 @@
+site_name: "TTM API"
+theme:
+  name: material
+nav:
+  - Home: index.md
+  - Project:
+      - Intro: Introdution.md
+      - Config: Building.md
+      - Requirements: requirements/train-ticket-machine-backend.pdf
+  - Architecture:
+      - System Architecture: System Architecture.md
+      - Solution: "Solution Structure.md"
+      - Layers:
+          - API Layer: API Layer.md
+          - Application Layer: Application Layer.md
+          - Domain Layer: Domain Layer.md
+          - Infrastructure Layer: Infrastructure Layer.md
+          - Helper Modules: Modules.md
+          - Implementation Details: Implementation Details.md
+  - Testing:
+      - Overview: Testing.md
+      - Security: Security.md
+      - Reports:
+        - Coverage: coverage/index.html
+        - Performance: Performance.md
+  - Summary: Summary.md
+extra_css:
+  - css/custom.css
+plugins:
+  - search

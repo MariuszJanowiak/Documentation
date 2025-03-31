@@ -1,0 +1,61 @@
+
+.md-nav__title {
+  color: var(--md-default-fg-color--white);
+}
+
+:root {
+  --md-default-bg-color: none; 
+}
+
+.md-typeset img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+body {
+  background-color: #2B2E83;
+  color: #ffffff;
+  font-family: 'Cascadia Code', monospace;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header: usuwamy biały background */
+.md-header,
+.md-header__inner,
+.header {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+
+/* Linki */
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover {
+  color: #FF7F00;
+  text-decoration: none;
+}
+
+/* Navigation links - zakładam, że Read the Docs używa selektorów .wy-menu lub podobnych; nadpisujemy je */
+.nav, .wy-menu-vertical {
+  background: transparent !important;
+}
+.nav a, .wy-menu-vertical a {
+  color: #ffffff !important;
+  font-family: 'Cascadia Code', monospace;
+  text-transform: none;
+}
+.nav a:hover, .wy-menu-vertical a:hover {
+  color: #FF7F00 !important;
+}
+
+/* Nagłówki (np. section titles) - bold, uppercase, biały */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cascadia Code', monospace;
+  font-weight: bold !important;
+  text-transform: uppercase;
+  color: #ffffff !important;
+}
