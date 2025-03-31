@@ -13,6 +13,46 @@
   margin-right: auto;
 }
 
+@media screen and (max-width: 76.2344em) {
+  .md-nav--primary, .md-nav--primary .md-nav {
+    background-color: #2B2E83;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+  }
+}
+
+.md-search-result .md-typeset {
+	opacity: 1;
+	foreground-color: #ffffff;
+}
+
+.md-sidebar__scrollwrap {
+  -webkit-backface-visibility: none;
+  margin: 0 .2rem;
+  overflow-y: auto;
+  scrollbar-color: #ffffff;
+  background-color: #2B2E83;
+}
+
+.md-search {
+    display: none !important;
+}
+
+.md-icon svg {
+  display: none;
+}
+
+.md-typeset a {
+  color: white;
+  word-break: break-word;
+}
+
 body {
   background-color: #2B2E83;
   color: #ffffff;
@@ -21,15 +61,7 @@ body {
   padding: 0;
 }
 
-/* Header: usuwamy biały background */
-.md-header,
-.md-header__inner,
-.header {
-  background: transparent !important;
-  box-shadow: none !important;
-}
 
-/* Linki */
 a {
   color: #ffffff;
   text-decoration: none;
@@ -39,20 +71,16 @@ a:hover {
   text-decoration: none;
 }
 
-/* Navigation links - zakładam, że Read the Docs używa selektorów .wy-menu lub podobnych; nadpisujemy je */
-.nav, .wy-menu-vertical {
-  background: transparent !important;
-}
 .nav a, .wy-menu-vertical a {
   color: #ffffff !important;
   font-family: 'Cascadia Code', monospace;
   text-transform: none;
 }
+
 .nav a:hover, .wy-menu-vertical a:hover {
   color: #FF7F00 !important;
 }
 
-/* Nagłówki (np. section titles) - bold, uppercase, biały */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Cascadia Code', monospace;
   font-weight: bold !important;

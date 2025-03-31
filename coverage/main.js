@@ -214,7 +214,7 @@ var assemblies = [
     "name": "helpers.dll",
     "classes": [
       { "name": "Helpers.InputValidator", "rp": "helpers.dll_InputValidator.html", "cl": 21, "ucl": 0, "cal": 21, "tl": 40, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "Helpers.LoggerConfigurationHelper", "rp": "helpers.dll_LoggerConfigurationHelper.html", "cl": 21, "ucl": 6, "cal": 27, "tl": 41, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "Helpers.LoggerConfigurationHelper", "rp": "helpers.dll_LoggerConfigurationHelper.html", "cl": 27, "ucl": 0, "cal": 27, "tl": 41, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "Helpers.NameCleaner", "rp": "helpers.dll_NameCleaner.html", "cl": 7, "ucl": 2, "cal": 9, "tl": 21, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
   {
@@ -232,7 +232,8 @@ var assemblies = [
     "name": "trainticketmachine.api.tests.dll",
     "classes": [
       { "name": "TrainTicketMachine.API.Tests.InputValidatorTests", "rp": "trainticketmachine.api.tests.dll_InputValidatorTests.html", "cl": 66, "ucl": 0, "cal": 66, "tl": 112, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
-      { "name": "TrainTicketMachine.API.Tests.LoggerConfigurationHelperTests", "rp": "trainticketmachine.api.tests.dll_LoggerConfigurationHelperTests.html", "cl": 21, "ucl": 0, "cal": 21, "tl": 52, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "TrainTicketMachine.API.Tests.LoggerConfigurationHelperTests", "rp": "trainticketmachine.api.tests.dll_LoggerConfigurationHelperTests.html", "cl": 30, "ucl": 0, "cal": 30, "tl": 66, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
+      { "name": "TrainTicketMachine.API.Tests.RunApiTests", "rp": "trainticketmachine.api.tests.dll_RunApiTests.html", "cl": 48, "ucl": 0, "cal": 48, "tl": 106, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
       { "name": "TrainTicketMachine.API.Tests.StationControllerTests", "rp": "trainticketmachine.api.tests.dll_StationControllerTests.html", "cl": 18, "ucl": 0, "cal": 18, "tl": 38, "cb": 0, "tb": 0, "cm": 0, "fcm": 0, "tm": 0, "lch": [], "bch": [], "mch": [], "mfch": [], "hc": [], "metrics": { } },
     ]},
   {
