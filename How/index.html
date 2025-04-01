@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../Introdution/">
+        <link rel="prev" href="../requirements/train-ticket-machine-backend.pdf">
       
       
-        <link rel="next" href="../requirements/train-ticket-machine-backend.pdf">
+        <link rel="next" href="../System%20Architecture/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Build it - API DOCUMENTATION</title>
+        <title>How does it work? - API DOCUMENTATION</title>
       
     
     
@@ -64,7 +64,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#how-to-run-the-api" class="md-skip">
+        <a href="#how-does-it-work" class="md-skip">
           Skip to content
         </a>
       
@@ -100,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Build it
+              How does it work?
             
           </span>
         </div>
@@ -275,32 +275,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  
-  <span class="md-ellipsis">
-    Build it
-    
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../Building/" class="md-nav__link">
         
   
   
@@ -311,53 +289,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#clone-the-repository" class="md-nav__link">
-    <span class="md-ellipsis">
-      Clone the Repository
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#run-the-startup-script" class="md-nav__link">
-    <span class="md-ellipsis">
-      Run the Startup Script
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#test-the-api" class="md-nav__link">
-    <span class="md-ellipsis">
-      Test the API
-    </span>
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -390,10 +321,32 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../How/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    How does it work?
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   
@@ -404,6 +357,71 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#input-filtering-the-cleanname-function" class="md-nav__link">
+    <span class="md-ellipsis">
+      Input Filtering – The CleanName Function
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#the-fast-trie-your-station-search-engine" class="md-nav__link">
+    <span class="md-ellipsis">
+      The Fast Trie – Your Station Search Engine
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#searching-the-trie" class="md-nav__link">
+    <span class="md-ellipsis">
+      Searching the Trie
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dynamic-database-updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dynamic Database Updates
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#keeping-it-secure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Keeping It Secure
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -923,27 +941,45 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#clone-the-repository" class="md-nav__link">
+  <a href="#input-filtering-the-cleanname-function" class="md-nav__link">
     <span class="md-ellipsis">
-      Clone the Repository
+      Input Filtering – The CleanName Function
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#run-the-startup-script" class="md-nav__link">
+  <a href="#the-fast-trie-your-station-search-engine" class="md-nav__link">
     <span class="md-ellipsis">
-      Run the Startup Script
+      The Fast Trie – Your Station Search Engine
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#test-the-api" class="md-nav__link">
+  <a href="#searching-the-trie" class="md-nav__link">
     <span class="md-ellipsis">
-      Test the API
+      Searching the Trie
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#dynamic-database-updates" class="md-nav__link">
+    <span class="md-ellipsis">
+      Dynamic Database Updates
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#keeping-it-secure" class="md-nav__link">
+    <span class="md-ellipsis">
+      Keeping It Secure
     </span>
   </a>
   
@@ -965,29 +1001,100 @@
 
 
 
-<h1 id="how-to-run-the-api">How to Run the API</h1>
-<h3 id="clone-the-repository">Clone the Repository</h3>
-<p>Open your terminal and run the following command:</p>
-<p><code>git clone &lt;repository_URL&gt;</code></p>
-<h3 id="run-the-startup-script">Run the Startup Script</h3>
-<p>Navigate to the project folder and execute the appropriate startup script:</p>
+<h1 id="how-does-it-work">How Does It Work?</h1>
+<p>Welcome to the inner workings of the Train Ticket Machine API – where clean input meets lightning-fast search and seamless updates! Let’s dive into the magic behind the scenes:</p>
+<h2 id="input-filtering-the-cleanname-function">Input Filtering – The CleanName Function</h2>
+<p>When a user types a station name on the touchpanel, our API first sends the input to our trusty CleanName function. Here's what it does:</p>
 <ul>
-<li><strong>For Windows users:</strong>
-<br>
-Run the <code>runWin.bat</code> file located in root directory.
-<br><br></li>
-<li><strong>For Unix/Linux users:</strong>
-<br>
-Run the <code>runUnix.sh</code> file (make sure it’s executable by running chmod +x runUnix.sh) located in root directory as well.
-<br><br>
-Scritps builds, turn on tests and run project! </li>
+<li>
+<p>Sanitizes the Input</p>
+<ul>
+<li>It removes all those pesky special characters that aren’t available on the touchpanel. For example, symbols like ', &amp;, /, and others are stripped out or replaced with spaces.</li>
 </ul>
-<h2 id="test-the-api">Test the API</h2>
-<p>Once the application has started, open your browser and navigate to:
-<br>
-<strong><code>https://localhost:5001/swagger</code></strong>
-<br>
-You can use the Swagger UI to test your API endpoints.</p>
+</li>
+<li>
+<p>Standardizes the Format</p>
+<ul>
+<li>It converts all letters to uppercase and replaces multiple spaces with a single space. This helps ensure that searches are accurate and consistent.</li>
+</ul>
+</li>
+<li>
+<p>Why Is This Important?</p>
+<ul>
+<li>Because the touchpanel only allows alphanumeric characters and a few basic symbols, any extra special characters would never be typed by the user – so why clutter the data? By cleaning the input, we make sure that the data used for searching is in perfect harmony with what the user can actually input.</li>
+</ul>
+</li>
+</ul>
+<h2 id="the-fast-trie-your-station-search-engine">The Fast Trie – Your Station Search Engine</h2>
+<ul>
+<li>
+<p>Building the Trie</p>
+<ul>
+<li>
+<p>Lazy Initialization
+The first time a search is requested, the API checks if the Trie (a clever tree-like data structure) has been built. If not, it loads all station data from the repository.</p>
+</li>
+<li>
+<p>Data Insertion
+Each station name is cleaned (using CleanName) and inserted into the Trie one character at a time. This makes it super-fast to locate any station based on a given prefix.</p>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="searching-the-trie">Searching the Trie</h2>
+<ul>
+<li>
+<p>Instant Lookup</p>
+<ul>
+<li>As the user types, the Trie is traversed to find<ul>
+<li>Matching Stations: All station names that begin with the current input.</li>
+<li>Next Valid Characters: The set of characters that logically follow the current input, which powers our auto-completion feature.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>Real-Time Response</p>
+<ul>
+<li>The API then packages these results into a JSON object and sends them back to the touchpanel for instant display.</li>
+</ul>
+</li>
+</ul>
+<h2 id="dynamic-database-updates">Dynamic Database Updates</h2>
+<ul>
+<li>
+<p>Background Refresh</p>
+<ul>
+<li>Seamless Transition
+If there are any changes, the service updates the repository and rebuilds the Trie. This means you always have the latest station information without any downtime.</li>
+</ul>
+</li>
+<li>
+<p>Open Architecture</p>
+<ul>
+<li>The solution is designed to be database-agnostic. Whether you're using a JSON data source, a SQL database, or any other storage system, the architecture makes it simple to plug in a new data source with minimal changes.</li>
+</ul>
+</li>
+</ul>
+<h2 id="keeping-it-secure">Keeping It Secure</h2>
+<ul>
+<li>
+<p>Built-In Safety Checks</p>
+<ul>
+<li>Our API is decorated with <code>[ApiController]</code>, which provides robust model validation and helps protect against common threats.</li>
+</ul>
+</li>
+<li>
+<p>Custom Input Sanitization</p>
+<ul>
+<li>Despite these built-in features, our CleanName function adds an extra layer of security by filtering out potentially dangerous characters, guarding against SQL injection and XSS attacks.</li>
+</ul>
+</li>
+<li>
+<p>Potential Risks &amp; Vigilance
+    While our system is designed to be secure, no solution is ever 100% foolproof. Constant monitoring and updates are part of our security strategy to keep risks minimal.</p>
+</li>
+</ul>
 
 
 

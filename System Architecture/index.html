@@ -9,7 +9,7 @@
       
       
       
-        <link rel="prev" href="../requirements/train-ticket-machine-backend.pdf">
+        <link rel="prev" href="../How/">
       
       
         <link rel="next" href="../Solution%20Structure/">
@@ -281,7 +281,7 @@
   
   
   <span class="md-ellipsis">
-    Config
+    Build it
     
   </span>
   
@@ -305,6 +305,29 @@
   
   <span class="md-ellipsis">
     Requirements
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../How/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    How does it work?
     
   </span>
   
@@ -761,7 +784,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../Performance/" class="md-nav__link">
+      <a href="../Perf/" class="md-nav__link">
         
   
   
@@ -856,8 +879,62 @@
 <p style="text-align: center;">References between the layers</p>
 <p><img alt="Reference" src="../images/Architecture_2_reference.jpg" />
 <br><br><br></p>
-<p style="text-align: center;">Solution folder structure</p>
-<p><img alt="foldersSolution" src="../images/Architecture_1.jpg" /></p>
+<h1 id="technical-components-and-dependencies">Technical Components and Dependencies</h1>
+<h3 id="nuget-packages">NuGet Packages</h3>
+<ul>
+<li>
+<p><strong>Microsoft.AspNetCore.Mvc</strong><br />
+<em>For building the RESTful API endpoints.</em></p>
+</li>
+<li>
+<p><strong>Microsoft.AspNetCore.Mvc.Testing</strong><br />
+<em>Provides the <code>WebApplicationFactory</code> used for integration testing of the API.</em></p>
+</li>
+<li>
+<p><strong>Microsoft.Extensions.Hosting</strong><br />
+<em>Used for hosting and running the application, including background services.</em></p>
+</li>
+<li>
+<p><strong>Serilog</strong><br />
+<em>A robust, structured logging library used throughout the application.</em></p>
+</li>
+<li>
+<p><strong>Serilog.AspNetCore</strong><br />
+<em>Integrates Serilog with ASP.NET Core for enhanced logging capabilities.</em></p>
+</li>
+<li>
+<p><strong>Moq</strong><br />
+<em>A popular mocking framework for unit testing to simulate dependencies.</em></p>
+</li>
+<li>
+<p><strong>xUnit</strong><br />
+<em>The testing framework used for unit tests across the project.</em></p>
+</li>
+<li>
+<p><strong>coverlet.msbuild</strong><br />
+<em>A tool for code coverage analysis to ensure high test coverage.</em></p>
+</li>
+</ul>
+<h3 id="additional-tools-and-technologies">Additional Tools and Technologies</h3>
+<ul>
+<li><strong>Git</strong><br />
+<em>Used for source control and versioning of the entire project.</em></li>
+</ul>
+<h3 id="other-notable-components">Other Notable Components</h3>
+<ul>
+<li>
+<p><strong>Trie Data Structure Implementation</strong><br />
+<em>Custom classes (<code>StationTrie</code>, <code>TrieNode</code>) for fast, efficient station name lookup and auto-completion.</em></p>
+</li>
+<li>
+<p><strong>Custom Input Sanitization</strong><br />
+<em>The <code>CleanName</code> function that removes special characters (that are not inputtable on a touch panel) and standardizes spaces to ensure accurate searching and data display.</em></p>
+</li>
+<li>
+<p><strong>Background Update Service</strong><br />
+<em><code>StationUpdateDatabaseService</code> that periodically updates the station database and rebuilds the Trie to keep data current.</em></p>
+</li>
+</ul>
 
 
 
