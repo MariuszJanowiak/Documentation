@@ -1,13 +1,29 @@
-# Building & Configuration
-### Compilation
+# How to Run the API
 
-#### build
-- The project is built using `dotnet build` and **RUN** with `dotnet run`.
+### Clone the Repository
 
-#### tests
-- Unit and integration tests can be executed using dotnet test. Tests are divided among the API, Application, Domain, and Infrastructure test projects, as well as TestHelpers
+Open your terminal and run the following command:
 
-***Personally using Visual Studio 2022 which allowed me to do combination of tests (which is starts right after building process) and build by using one from Rebuild or Build option***
+```git clone <repository_URL>```
 
-### Environment
-- The development environment is configured via the launchSettings.json file, which specifies ports (HTTP: 5000, HTTPS: 5001) and launch settings (e.g., automatic Swagger launch).
+### Run the Startup Script
+
+Navigate to the project folder and execute the appropriate startup script:
+
+- **For Windows users:**
+<br>
+Run the `runWin.bat` file located in root directory.
+<br><br>
+- **For Unix/Linux users:**
+<br>
+Run the `runUnix.sh` file (make sure it’s executable by running chmod +x runUnix.sh) located in root directory as well.
+<br><br>
+Scritps builds, turn on tests and run project! 
+
+## Test the API
+
+Once the application has started, open your browser and navigate to:
+<br>
+**`https://localhost:5001/swagger`**
+<br>
+You can use the Swagger UI to test your API endpoints.

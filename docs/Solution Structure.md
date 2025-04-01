@@ -14,4 +14,6 @@ The solution file **`TrainTicketMachine.sln`** defines the project hierarchy and
 	- `TrainTicketMachine.Application.Tests`
 	- `TrainTicketMachine.Domain.Tests`
 	- `TrainTicketMachine.Infrastructure.Tests`
-	
+	<br><br>
+<p style="text-align: center;">Solution folder structure</p>
+![foldersSolution](images/Architecture_1.jpg)<br><br><br>

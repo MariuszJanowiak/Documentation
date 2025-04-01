@@ -5,8 +5,9 @@ nav:
   - Home: index.md
   - Project:
       - Intro: Introdution.md
-      - Config: Building.md
+      - Build it: Building.md
       - Requirements: requirements/train-ticket-machine-backend.pdf
+      - How does it work?: How.md
   - Architecture:
       - System Architecture: System Architecture.md
       - Solution: "Solution Structure.md"
@@ -22,7 +23,7 @@ nav:
       - Security: Security.md
       - Reports:
         - Coverage: coverage/index.html
-        - Performance: Performance.md
+        - Performance: Perf.md
   - Summary: Summary.md
 extra_css:
   - css/custom.css

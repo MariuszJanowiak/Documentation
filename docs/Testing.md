@@ -43,7 +43,7 @@ The tests are organized by application layer and are contained within their resp
 ## Infrastructure Layer Tests
 
 - **JsonUrlDataSourceTests.cs (TrainTicketMachine.Infrastructure.Tests)**
-  - Validates that `GetStationsAsync` throws a JSON exception when provided with invalid JSON data. [97]
+  - Validates that `GetStationsAsync` throws a JSON exception when provided with invalid JSON data.
 
 - **`StationRepositoryTests.cs`**
   - Ensures that the repository returns an empty collection when the data source provides an empty list.
