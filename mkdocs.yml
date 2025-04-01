@@ -25,5 +25,6 @@ nav:
         - Coverage: coverage/index.html
         - Performance: Perf.md
   - Summary: Summary.md
+  - FAQ: FAQ.md
 extra_css:
   - css/custom.css
